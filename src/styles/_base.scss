@@ -1,0 +1,29 @@
+html,
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #fff;
+  color: #24012f;
+  text-rendering: optimizeLegibility;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: 400 17px/23px Helvetica, Arial, sans-serif;
+}
+
+a {
+  touch-action: manipulation;
+}
+
+* {
+  &:focus {
+    outline: 0;
+  }
+}

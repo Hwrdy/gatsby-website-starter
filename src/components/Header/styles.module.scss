@@ -1,0 +1,18 @@
+.wrapper {
+  background: #000;
+
+  .title-wrapper {
+    max-width: 960px;
+    padding: 16px 32px;
+
+    .title {
+      margin: 0;
+      font-size: 24px;
+    }
+  }
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
